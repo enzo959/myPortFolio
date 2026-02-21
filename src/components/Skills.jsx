@@ -20,52 +20,52 @@ export default function Skills() {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <SkillsCard
-            logo="src/assets/react.svg"
+            logo="../src/assets/react.svg"
             name="React"
             description="Composants, Hooks, State management"
           />
           <SkillsCard
-            logo="src/assets/go.png"
+            logo="../src/assets/go.png"
             name="Go"
             description="API REST, JWT, PostgreSQL"
           />
           <SkillsCard
-            logo="src/assets/cors.png"
+            logo="../src/assets/cors.png"
             name="CORS"
             description="middleware"
           />
           <SkillsCard
-            logo="src/assets/docker.png"
+            logo="../src/assets/docker.png"
             name="Docker"
             description="container"
           />
           <SkillsCard
-            logo="src/assets/postgresql.png"
+            logo="../src/assets/postgresql.png"
             name="PostgreSQL"
             description="système de base de données objet-relationnel puissant "
           />
           <SkillsCard
-            logo="src/assets/jwt.png"
+            logo="../src/assets/jwt.png"
             name="JWT"
             description="middleware d'authentification"
           />
           <SkillsCard
-            logo="src/assets/java.png"
+            logo="../src/assets/java.png"
             name="JAVA"
             description="langage de POO (Programation Orienté Objet)"
           />
           <SkillsCard
-            logo="src/assets/css.png"
+            logo="../src/assets/css.png"
             name="CSS"
             description="langage de présentation"
           />
           <SkillsCard
-            logo="src/assets/tailwind.png"
+            logo="../src/assets/tailwind.png"
             name="Tailwind"
             description="framework de CSS"
           />
           <SkillsCard
-            logo="src/assets/virtualbox.png"
+            logo="../src/assets/virtualbox.png"
             name="Virtual Box"
             description="Logiciel de machine virtuelle"
           />
