@@ -10,6 +10,7 @@ import react from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
 import virtualbox from "../assets/virtualbox.png";
 
+
 export const images = {
   moi,
   cors,
