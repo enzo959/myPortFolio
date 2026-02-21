@@ -1,4 +1,4 @@
-import moi from "../assets/moi.jpg";
+import moi from "../assets/moi.png";
 import cors from "../assets/cors.png";
 import css from "../assets/css.png";
 import docker from "../assets/docker.png";
