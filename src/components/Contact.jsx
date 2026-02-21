@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="relative min-h-screen flex items-center justify-center bg-slate-900 px-4"
+      className="relative h-screen flex flex-wrap justify-center items-center bg-linear-to-r from-blue-900 to-violet-900"
     >
       <div className="relative z-10 flex flex-col items-center w-full">
         <h2 className="text-3xl font-bold text-white mb-6 text-center">
