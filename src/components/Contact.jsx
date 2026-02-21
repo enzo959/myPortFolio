@@ -1,4 +1,5 @@
 import { useState } from "react";
+import MatrixBackground from "./MatrixBackground";
 
 export default function Contact() {
 
@@ -11,6 +12,7 @@ export default function Contact() {
     >
 
     <MatrixBackground />
+
       <div className="relative z-10 flex flex-col items-center w-full">
         <h2 className="text-3xl font-bold text-white mb-6 text-center">
           Contact
