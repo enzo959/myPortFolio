@@ -1,5 +1,6 @@
 import MatrixBackground from './MatrixBackground'
 import MonCV from '../assets/CvEnzoCourvalet.pdf'
+import { images } from "../constants/images";
 
 export default function Accueil() {
   return (
@@ -12,7 +13,7 @@ export default function Accueil() {
       {/* ===== Colonne gauche (Photo + métier) ===== */}
       <div className="relative z-10 flex flex-col items-center">
         <img
-          src="../assets/moi.jpg"
+          src={images.moi}
           alt="Photo de profil"
           className="w-125 h-125 rounded-full border-4 border-purple-400 shadow-lg mb-6"
         />

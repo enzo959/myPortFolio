@@ -1,5 +1,6 @@
 import MatrixBackground from "./MatrixBackground";
 import SkillsCard from "./SkillsCard";
+import { images } from "../constants/images";
 
 export default function Skills() {
   return (
@@ -20,52 +21,52 @@ export default function Skills() {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <SkillsCard
-            logo="../assets/react.svg"
+            logo={images.react}
             name="React"
             description="Composants, Hooks, State management"
           />
           <SkillsCard
-            logo="../assets/go.png"
+            logo={images.go}
             name="Go"
             description="API REST, JWT, PostgreSQL"
           />
           <SkillsCard
-            logo="../assets/cors.png"
+            logo={images.cors}
             name="CORS"
             description="middleware"
           />
           <SkillsCard
-            logo="../assets/docker.png"
+            logo={images.docker}
             name="Docker"
             description="container"
           />
           <SkillsCard
-            logo="../assets/postgresql.png"
+            logo={images.postgresql}
             name="PostgreSQL"
             description="système de base de données objet-relationnel puissant "
           />
           <SkillsCard
-            logo="../assets/jwt.png"
+            logo={images.jwt}
             name="JWT"
             description="middleware d'authentification"
           />
           <SkillsCard
-            logo="../assets/java.png"
+            logo={images.java}
             name="JAVA"
             description="langage de POO (Programation Orienté Objet)"
           />
           <SkillsCard
-            logo="../assets/css.png"
+            logo={images.css}
             name="CSS"
             description="langage de présentation"
           />
           <SkillsCard
-            logo="../assets/tailwind.png"
+            logo={images.tailwind}
             name="Tailwind"
             description="framework de CSS"
           />
           <SkillsCard
-            logo="../assets/virtualbox.png"
+            logo={images.virtualbox}
             name="Virtual Box"
             description="Logiciel de machine virtuelle"
           />
