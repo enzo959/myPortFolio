@@ -14,7 +14,7 @@ export default function ProjectCard({ title, description, tech, github }) {
         {tech.map((item, index) => (
           <span
             key={index}
-            className="bg-green-600/20 text-green-400 px-3 py-1 rounded-full text-sm"
+            className="bg-green-600/20 text-purple-700 px-3 py-1 rounded-full text-sm"
           >
             {item}
           </span>
@@ -25,7 +25,7 @@ export default function ProjectCard({ title, description, tech, github }) {
         href={github}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-green-400 hover:underline"
+        className="text-purple-700 hover:underline"
       >
         Voir sur GitHub →
       </a>
