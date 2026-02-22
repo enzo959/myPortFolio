@@ -9,6 +9,7 @@ import postgresql from "../assets/postgresql.png";
 import react from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
 import virtualbox from "../assets/virtualbox.png";
+import js from "../assets/js.png"
 
 
 export const images = {
@@ -22,6 +23,7 @@ export const images = {
   postgresql,
   react,
   tailwind,
-  virtualbox
+  virtualbox,
+  js
 
 };
