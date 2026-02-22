@@ -70,6 +70,11 @@ export default function Skills() {
             name="Virtual Box"
             description="Logiciel de machine virtuelle"
           />
+          <SkillsCard
+            logo={images.js}
+            name="JavaScript"
+            description="Langage de programation léger."
+          />
         </div>
 
       </div>

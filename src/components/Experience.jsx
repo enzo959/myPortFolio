@@ -27,24 +27,24 @@ export default function Experience() {
                     description="Developpement Web, Cybersecurité"
                 />
                 <ExperienceCard
-                    title="Bachelor 1 informatique"
-                    duration="Sep 2025 - juin 2026"
+                    title="Employé polyvalant, Mcdonald's"
+                    duration="Oct 2025 - actuellement"
                     description="Developpement Web, Cybersecurité"
                 />
                 <ExperienceCard
-                    title="Bachelor 1 informatique"
-                    duration="Sep 2025 - juin 2026"
-                    description="Developpement Web, Cybersecurité"
+                    title="XXXXXXXXXXXXXXX"
+                    duration="Xxx 0000 - Xxx 0000"
+                    description="XXXXXXXXXXXXXXX"
                 />
                 <ExperienceCard
-                    title="Bachelor 1 informatique"
+                    title="XXXXXXXXXXXXXXX"
                     duration="Sep 2025 - juin 2026"
-                    description="Developpement Web, Cybersecurité"
+                    description="XXXXXXXXXXXXXXX"
                 />
                 <ExperienceCard
-                    title="Bachelor 1 informatique"
-                    duration="Sep 2025 - juin 2026"
-                    description="Developpement Web, Cybersecurité"
+                    title="XXXXXXXXXXXXXXX"
+                    duration="Xxx 0000 - Xxx 0000"
+                    description="XXXXXXXXXXXXXXX"
                 />
             </div>
     </section>

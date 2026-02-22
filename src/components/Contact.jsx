@@ -26,7 +26,7 @@ export default function Contact() {
 
           {/* Nom */}
           <div className="bg-slate-800 p-5 rounded-xl border border-slate-700">
-            <label className="text-white block mb-2">Nom</label>
+            <label className="text-white block mb-2">git init (Prénom et Nom)</label>
             <input
               type="text"
               name="nom"
@@ -37,7 +37,7 @@ export default function Contact() {
 
           {/* Email */}
           <div className="bg-slate-800 p-5 rounded-xl border border-slate-700">
-            <label className="text-white block mb-2">Email</label>
+            <label className="text-white block mb-2">git add (Email)</label>
             <input
               type="email"
               name="email"
@@ -48,7 +48,7 @@ export default function Contact() {
 
           {/* Message */}
           <div className="bg-slate-800 p-5 rounded-xl border border-slate-700">
-            <label className="text-white block mb-2">Message</label>
+            <label className="text-white block mb-2">git commit (message)</label>
             <textarea
               name="message"
               rows="5"
@@ -64,7 +64,7 @@ export default function Contact() {
             type="submit"
             className="w-full md:w-auto bg-purple-600 hover:bg-purple-700 active:scale-95 text-white font-bold py-3 px-8 rounded-xl shadow-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2 focus:ring-offset-slate-900"
           >
-            Envoyer
+            git push (envoyé)
           </button>
 
         </form>

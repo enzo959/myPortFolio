@@ -17,28 +17,28 @@ export default function Projects() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10">
 
           <ProjectsCard
-            title="GP Tracker"
-            description="API REST en Go avec JWT et PostgreSQL."
-            tech={["Go", "PostgreSQL", "Docker"]}
-            github="https://github.com/..."
+            title="F.Y.T"
+            description="Site de vente de place d'événements."
+            tech={["Go", "PostgreSQL", "Docker", "React", "Tailwind"]}
+            github="https://github.com/enzo959/projet_ydays_backend"
           />
 
           <ProjectsCard
             title="Portfolio React"
-            description="Portfolio moderne avec animations et effet Matrix."
+            description="Mon portfolio thème 'Cyber'"
             tech={["React", "Tailwind"]}
-            github="https://github.com/..."
+            github="https://github.com/enzo959/myPortFolio"
           />
           <ProjectsCard
-            title="Portfolio React"
-            description="Portfolio moderne avec animations et effet Matrix."
-            tech={["React", "Tailwind"]}
-            github="https://github.com/..."
+            title="TCP/IP"
+            description="Chat de communication"
+            tech={["GO", "TCP/IP"]}
+            github="https://github.com"
           />
           <ProjectsCard
-            title="Portfolio React"
-            description="Portfolio moderne avec animations et effet Matrix."
-            tech={["React", "Tailwind"]}
+            title="YLink"
+            description="Platforme de mise en relation, recherche d'emploi/client."
+            tech={["GO", "Postgresql", "Docker", "React", "Tailwind"]}
             github="https://github.com/..."
           />
           <ProjectsCard
