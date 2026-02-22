@@ -8,7 +8,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="relative h-screen flex flex-wrap justify-center items-center bg-linear-to-r from-blue-900 to-violet-900"
+      className="relative min-h-screen flex items-center justify-center bg-linear-to-r from-blue-900 to-violet-900 px-6 py-20"
     >
 
     <MatrixBackground />
@@ -21,7 +21,7 @@ export default function Contact() {
         <form
           action="https://formspree.io/f/mdkvrzzo"
           method="POST"
-          className="w-full max-w-6xl space-y-6 mx-auto"
+          className="w-full max-w-lg space-y-6 mx-auto"
         >
 
           {/* Nom */}
@@ -31,7 +31,7 @@ export default function Contact() {
               type="text"
               name="nom"
               required
-              className="w-full p-5 rounded-lg bg-slate-900 text-white border border-slate-700 focus:border-purple-500 outline-none"
+              className="w-full p-4 md:p-5 rounded-lg bg-slate-900 text-white border border-slate-700 focus:border-purple-500 focus:ring-2 focus:ring-purple-500/40 outline-none transition"
             />
           </div>
 
@@ -42,7 +42,7 @@ export default function Contact() {
               type="email"
               name="email"
               required
-              className="w-full p-5 rounded-lg bg-slate-900 text-white border border-slate-700 focus:border-purple-500 outline-none"
+              className="w-full p-4 md:p-5 rounded-lg bg-slate-900 text-white border border-slate-700 focus:border-purple-500 focus:ring-2 focus:ring-purple-500/40 outline-none transition"
             />
           </div>
 
@@ -53,7 +53,7 @@ export default function Contact() {
               name="message"
               rows="5"
               required
-              className="w-full p-5 rounded-lg bg-slate-900 text-white border border-slate-700 focus:border-purple-500 outline-none"
+              className="w-full p-4 md:p-5 rounded-lg bg-slate-900 text-white border border-slate-700 focus:border-purple-500 focus:ring-2 focus:ring-purple-500/40 outline-none transition resize-none"
             />
           </div>
 
@@ -62,7 +62,7 @@ export default function Contact() {
 
           <button
             type="submit"
-            className="w-full bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 rounded-xl transition"
+            className="w-full md:w-auto bg-purple-600 hover:bg-purple-700 active:scale-95 text-white font-bold py-3 px-8 rounded-xl shadow-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-offset-2 focus:ring-offset-slate-900"
           >
             Envoyer
           </button>
@@ -71,10 +71,12 @@ export default function Contact() {
       </div>
 
       {status && (
-        <p className="text-green-400 text-center mt-4">
-          {status}
-        </p>
-      )}
+        <div className="mt-6 flex justify-center">
+          <p className="px-6 py-3 rounded-xl bg-green-500/10 border border-green-500/30 text-green-400 text-center text-sm md:text-base shadow-md animate-fadeIn">
+            {status}
+          </p>
+        </div>
+)}
     </section>
   );
 }

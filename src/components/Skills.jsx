@@ -6,7 +6,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="relative min-h-screen flex flex-col items-center justify-center bg-slate-900"
+      className="relative min-h-screen flex flex-col items-center justify-center bg-slate-900 px-6 py-20"
     >
 
       {/* Fond Matrix */}
@@ -19,7 +19,7 @@ export default function Skills() {
           Skills
         </h2>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
           <SkillsCard
             logo={images.react}
             name="React"

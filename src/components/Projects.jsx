@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="relative h-screen flex items-center justify-center bg-linear-to-r from-blue-600 to-violet-200 overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center bg-linear-to-r from-blue-600 to-violet-200 overflow-hidden py-20"
     >
         <MatrixBackground />
         <div className="relative z-10 w-full max-w-6xl px-6">
@@ -14,7 +14,7 @@ export default function Projects() {
           Projets
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10">
 
           <ProjectsCard
             title="GP Tracker"

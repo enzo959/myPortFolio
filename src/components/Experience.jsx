@@ -6,7 +6,7 @@ export default function Experience() {
   return (
     <section 
         id="experience" 
-        className="relative h-screen flex flex-wrap justify-center items-center bg-linear-to-r from-blue-900 to-violet-900"
+        className="relative min-h-screen flex flex-col items-center justify-center bg-linear-to-r from-blue-900 to-violet-900 px-6 py-20"
     >  
 
             <MatrixBackground />
@@ -15,7 +15,7 @@ export default function Experience() {
                 Formation
             </h2>
 
-            <div className="relative z-10 flex flex-wrap justify-center items-center">
+            <div className="relative z-10 flex flex-wrap justify-center gap-6 max-w-6xl">
                 <ExperienceCard
                     title="Lycée Notre Dame"
                     duration="Sep 2022 - Juin 2025"
