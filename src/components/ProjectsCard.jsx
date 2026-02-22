@@ -14,7 +14,7 @@ export default function ProjectCard({ title, description, tech, github }) {
         {tech.map((item, index) => (
           <span
             key={index}
-            className="bg-purple-600/20 text-purple-700 px-3 py-1 rounded-full text-sm"
+            className="bg-purple-600/20 text-white px-3 py-1 rounded-full text-sm"
           >
             {item}
           </span>
