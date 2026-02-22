@@ -1,6 +1,6 @@
 export default function ProjectCard({ title, description, tech, github }) {
   return (
-    <div className="bg-slate-800 rounded-2xl p-6 shadow-lg hover:shadow-green-500/20 transition-all duration-300 hover:-translate-y-2">
+    <div className="bg-slate-800 rounded-2xl p-6 shadow-lg hover:shadow-purple-500/20 transition-all duration-300 hover:-translate-y-2">
 
       <h3 className="text-2xl font-bold text-white mb-3">
         {title}
@@ -14,7 +14,7 @@ export default function ProjectCard({ title, description, tech, github }) {
         {tech.map((item, index) => (
           <span
             key={index}
-            className="bg-green-600/20 text-purple-700 px-3 py-1 rounded-full text-sm"
+            className="bg-purple-600/20 text-purple-700 px-3 py-1 rounded-full text-sm"
           >
             {item}
           </span>
