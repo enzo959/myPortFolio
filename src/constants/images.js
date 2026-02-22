@@ -10,6 +10,7 @@ import react from "../assets/react.png";
 import tailwind from "../assets/tailwind.png";
 import virtualbox from "../assets/virtualbox.png";
 import js from "../assets/js.png"
+import linux from "../assets/linux.png"
 
 
 export const images = {
@@ -24,6 +25,7 @@ export const images = {
   react,
   tailwind,
   virtualbox,
-  js
+  js,
+  linux
 
 };

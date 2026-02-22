@@ -38,12 +38,12 @@ export default function Skills() {
           <SkillsCard
             logo={images.docker}
             name="Docker"
-            description="container"
+            description="Logiciel de conteneurisation"
           />
           <SkillsCard
             logo={images.postgresql}
             name="PostgreSQL"
-            description="système de base de données objet-relationnel puissant "
+            description="système de base de données objet-relationnel puissant"
           />
           <SkillsCard
             logo={images.jwt}
@@ -73,7 +73,12 @@ export default function Skills() {
           <SkillsCard
             logo={images.js}
             name="JavaScript"
-            description="Langage de programation léger."
+            description="Langage de programation léger"
+          />
+          <SkillsCard
+            logo={images.linux}
+            name="Linux"
+            description="système d'exploitation de type Unix"
           />
         </div>
 
