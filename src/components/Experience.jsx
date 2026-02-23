@@ -29,7 +29,7 @@ export default function Experience() {
                 <ExperienceCard
                     title="Employé polyvalant, Mcdonald's"
                     duration="Oct 2025 - actuellement"
-                    description="Developpement Web, Cybersecurité"
+                    description="Cuisine, service à table et prise de commande"
                 />
                 <ExperienceCard
                     title="XXXXXXXXXXXXXXX"

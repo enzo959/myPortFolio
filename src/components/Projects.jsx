@@ -42,9 +42,9 @@ export default function Projects() {
             github="https://github.com/..."
           />
           <ProjectsCard
-            title="Portfolio React"
-            description="Portfolio moderne avec animations et effet Matrix."
-            tech={["React", "Tailwind"]}
+            title="Projet Puissance 4"
+            description="Jeu du 'puissance 4' classqiue. En solo ou à deux."
+            tech={["HTML", "CSS", "JS"]}
             github="https://github.com/..."
           />
 
