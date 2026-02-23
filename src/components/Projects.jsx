@@ -20,7 +20,7 @@ export default function Projects() {
             title="F.Y.T"
             description="Site de vente de place d'événements."
             tech={["Go", "PostgreSQL", "Docker", "React", "Tailwind"]}
-            github="https://github.com/enzo959/projet_ydays_backend"
+            github="https://github.com/enzo959/projet_gp_tracker_backend"
           />
 
           <ProjectsCard
@@ -39,7 +39,7 @@ export default function Projects() {
             title="YLink"
             description="Platforme de mise en relation, recherche d'emploi/client."
             tech={["GO", "Postgresql", "Docker", "React", "Tailwind"]}
-            github="https://github.com/..."
+            github="https://github.com/enzo959/projet_ydays_backend"
           />
           <ProjectsCard
             title="Projet Puissance 4"
