@@ -21,7 +21,7 @@ export default function Projects() {
             description="Site de vente de place d'événements."
             tech={["Go", "PostgreSQL", "Docker", "React", "Tailwind"]}
             github="https://github.com/enzo959/projet_gp_tracker_backend"
-            linkedin=""
+            linkedin="httpifhzri"
             pdf=""
           />
 
@@ -38,7 +38,7 @@ export default function Projects() {
             description="Chat de communication"
             tech={["GO", "TCP/IP"]}
             github="https://github.com"
-            linkedin=""
+            linkedin="erojfefjrefjz"
             pdf=""
           />
           <ProjectsCard
