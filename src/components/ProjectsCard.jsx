@@ -1,4 +1,4 @@
-export default function ProjectCard({ title, description, tech, github }) {
+export default function ProjectCard({ title, description, tech, github, linkedin, pdf }) {
   return (
     <div className="bg-slate-800 rounded-2xl p-6 shadow-lg hover:shadow-purple-500/20 transition-all duration-300 hover:-translate-y-2">
 
@@ -20,16 +20,37 @@ export default function ProjectCard({ title, description, tech, github }) {
           </span>
         ))}
       </div>
-
-      <a
-        href={github}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-purple-700 hover:underline"
-      >
-        Voir sur GitHub →
-      </a>
-
+      <div className="flex flex-col gap-2 mt-4">
+        {github && (
+          <a
+            href={github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-purple-700 hover:underline"
+          >
+            Voir sur GitHub →
+          </a>
+        )}
+        {linkedin && (
+          <a
+            href={linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-purple-700 hover:underline"
+          >
+            Voir sur LinkedIn →
+          </a>
+        )}
+        {pdf && (
+          <a
+            href={pdf}
+            download
+            className="text-purple-700 hover:underline"
+          >
+            Voir la fiche détail →
+          </a>
+        )}
+      </div>
     </div>
   );
 }

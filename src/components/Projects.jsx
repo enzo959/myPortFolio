@@ -21,6 +21,8 @@ export default function Projects() {
             description="Site de vente de place d'événements."
             tech={["Go", "PostgreSQL", "Docker", "React", "Tailwind"]}
             github="https://github.com/enzo959/projet_gp_tracker_backend"
+            linkedin=""
+            pdf=""
           />
 
           <ProjectsCard
@@ -28,24 +30,32 @@ export default function Projects() {
             description="Mon portfolio thème 'Cyber'"
             tech={["React", "Tailwind"]}
             github="https://github.com/enzo959/myPortFolio"
+            linkedin=""
+            pdf=""
           />
           <ProjectsCard
             title="TCP/IP"
             description="Chat de communication"
             tech={["GO", "TCP/IP"]}
             github="https://github.com"
+            linkedin=""
+            pdf=""
           />
           <ProjectsCard
             title="YLink"
             description="Platforme de mise en relation, recherche d'emploi/client."
             tech={["GO", "Postgresql", "Docker", "React", "Tailwind"]}
             github="https://github.com/enzo959/projet_ydays_backend"
+            linkedin=""
+            pdf=""
           />
           <ProjectsCard
             title="Projet Puissance 4"
             description="Jeu du 'puissance 4' classqiue. En solo ou à deux."
             tech={["HTML", "CSS", "JS"]}
             github="https://github.com/..."
+            linkedin=""
+            pdf=""
           />
 
         </div>
