@@ -37,6 +37,22 @@ export default function Accueil() {
         >
           Télécharger le CV
         </a>
+        <a
+          href="https://www.linkedin.com/in/courvaletenzo"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-full md:w-fit bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-xl shadow-lg transition"
+        >
+          Voir mon LinkedIn
+        </a>
+        <a
+          href="https://github.com/enzo959"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-full md:w-fit bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-xl shadow-lg transition"
+        >
+          Voir mon GitHub
+        </a>
 
       </div>
     </section>
