@@ -17,14 +17,14 @@ export default function Experience() {
 
             <div className="relative z-10 flex flex-wrap justify-center gap-6 max-w-6xl">
                 <ExperienceCard
-                    title="Lycée Notre Dame"
-                    duration="Sep 2022 - Juin 2025"
-                    description="Spé Math, NSI, SES en ppemière, Spé Math et NSI en Terminal, Option Sport de la Seconde à la Terminal et Option Math Experte en Terminal"
-                />
-                <ExperienceCard
                     title="Bachelor 1 informatique"
                     duration="Sep 2025 - juin 2026"
                     description="Developpement Web, Cybersecurité"
+                />
+                <ExperienceCard
+                    title="Réserviste Opérationel"
+                    duration="2024 - actuellement"
+                    description="Je suis actuellement engagé, sur mon temps libre, en tant que soldat dans l’Armée de Terre, où j’effectue toutes les missions qui me sont attribuées."
                 />
                 <ExperienceCard
                     title="Employé polyvalant, Mcdonald's"
@@ -32,9 +32,9 @@ export default function Experience() {
                     description="Cuisine, service à table et prise de commande"
                 />
                 <ExperienceCard
-                    title="XXXXXXXXXXXXXXX"
-                    duration="Xxx 0000 - Xxx 0000"
-                    description="XXXXXXXXXXXXXXX"
+                    title="Lycée Notre Dame"
+                    duration="Sep 2022 - Juin 2025"
+                    description="Spé Math, NSI, SES en ppemière, Spé Math et NSI en Terminal, Option Sport de la Seconde à la Terminal et Option Math Experte en Terminal"
                 />
                 <ExperienceCard
                     title="XXXXXXXXXXXXXXX"
