@@ -3,6 +3,26 @@ import MonCV from '../assets/CvEnzoCourvalet.pdf'
 import { images } from "../constants/images";
 
 export default function Accueil() {
+  const postes = [
+          "Technicien systèmes et réseaux",
+          "Administrateur systèmes et réseaux",
+          "Technicien support / Helpdesk",
+          "Technicien de maintenance informatique",
+          "Gestionnaire de parc informatique",
+          "Technicien réseau & télécoms",
+          "Technicien infrastructure",
+          "Analyste d’exploitation informatique",
+          "Pilote d’exploitation informatique",
+          "Responsable d’exploitation informatique",
+          "Technicien cybersécurité",
+          "Analyste SOC junior",
+          "Administrateur sécurité informatique",
+          "Webmaster",
+          "Technicien support applicatif",
+          "DevOps / Cloud junior",
+          "Technicien virtualisation / stockage",
+          "IT consultant / Assistant consultant"
+        ];
   return (
     <section
       id="accueil"
@@ -28,28 +48,42 @@ export default function Accueil() {
 
         {/* Titre remonté */}
         <h1 className="text-3xl md:text-5xl font-bold text-purple-200 mb-4">
-          Bienvenue sur mon portfolio.
+          Bienvenue sur mon portfolio
         </h1>
 
         {/* Zone description scrollable */}
         <div className="w-full max-w-xl bg-white/10 backdrop-blur-md p-6 rounded-2xl shadow-lg">
-          <div className="text-purple-100 text-sm md:text-base max-h-64 overflow-y-auto pr-2">
-            <p className="mb-4">
-              👋 Présentation rapide — ici tu peux mettre une longue description de toi.
-            </p>
+          <div className="text-left text-purple-100 text-sm md:text-base max-h-82 overflow-y-auto pr-2">
+            <div className="space-y-4">
+              
+              <p>
+              Je m'appelle Enzo Courvalet. Je suis étudiant en première année de Bachelor informatique.
+              </p>
 
-            <p className="mb-4">
-              Explique ton parcours, tes compétences, tes projets, et surtout ta recherche d’alternance.
-            </p>
+              <p>
+              Je recherche une alternance pour septembre 2026 afin d'effectuer un BTS SIO option SISR.
+              </p>
 
-            <p className="mb-4">
-              Tu peux parler de ton BTS SIO, de tes compétences en développement web,
-              cybersécurité, et de tes objectifs professionnels.
-            </p>
+              <p>
+              Actuellement chez Ynov Campus (Rennes), 
+              j'aimerais intégrer une formation en alternance qui me rapprocherait du monde professionnel et
+               élargirait mon horizon d'expérience.
+              </p>
+              <p>
+                Si vous voulez en savoir plus sur mon parcours, n'hésitez pas à naviguer sur ce portfolio ! 
+              </p>
+              <p>
+                Ci-dessous une partie des postes auxquels je postule. 
+                Je suis ouvert à toute proposition, quelle qu'elle soit. N'hésitez pas à me contacter!
+              </p>
 
-            <p>
-              Ajoute autant de texte que tu veux — la zone devient scrollable automatiquement.
-            </p>
+              <ul className="list-disc pl-5 space-y-1">
+                {postes.map((poste, index) => (
+                  <li key={index}>{poste}</li>
+                ))}
+              </ul>
+
+            </div>
           </div>
         </div>
 
@@ -61,7 +95,7 @@ export default function Accueil() {
             download
             className="flex-1 min-w-45 text-center bg-purple-500 hover:bg-purple-600 text-white font-bold py-3 px-6 rounded-xl shadow-lg transition"
           >
-            Télécharger le CV
+            CV
           </a>
 
           <a
@@ -70,7 +104,7 @@ export default function Accueil() {
             rel="noopener noreferrer"
             className="flex-1 min-w-45 text-center bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-xl shadow-lg transition"
           >
-            Voir mon LinkedIn
+            LinkedIn
           </a>
 
           <a
@@ -79,7 +113,7 @@ export default function Accueil() {
             rel="noopener noreferrer"
             className="flex-1 min-w-45 text-center bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-xl shadow-lg transition"
           >
-            Voir mon GitHub
+            GitHub
           </a>
 
         </div>

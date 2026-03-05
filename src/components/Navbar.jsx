@@ -6,7 +6,7 @@ export default function Navbar() {
           <a href="#accueil" className="hover:text-purple-400">Accueil</a>
         </li>
         <li>
-          <a href="#experience" className="hover:text-purple-400">Expérience</a>
+          <a href="#experience" className="hover:text-purple-400">Formation</a>
         </li>
         <li>
           <a href="#skills" className="hover:text-purple-400">Skills</a>

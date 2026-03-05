@@ -36,16 +36,6 @@ export default function Experience() {
                     duration="Sep 2022 - Juin 2025"
                     description="Spé Math, NSI, SES en ppemière, Spé Math et NSI en Terminal, Option Sport de la Seconde à la Terminal et Option Math Experte en Terminal"
                 />
-                <ExperienceCard
-                    title="XXXXXXXXXXXXXXX"
-                    duration="Sep 2025 - juin 2026"
-                    description="XXXXXXXXXXXXXXX"
-                />
-                <ExperienceCard
-                    title="XXXXXXXXXXXXXXX"
-                    duration="Xxx 0000 - Xxx 0000"
-                    description="XXXXXXXXXXXXXXX"
-                />
             </div>
     </section>
   );
