@@ -42,10 +42,10 @@ export default function Projects() {
             pdf=""
           />
           <ProjectsCard
-            title="YLink"
-            description="Platforme de mise en relation, recherche d'emploi/client."
-            tech={["GO", "Postgresql", "Docker", "React", "Tailwind"]}
-            github="https://github.com/enzo959/projet_ydays_backend"
+            title="Bot Discord"
+            description="Jeu Coup, jeu de stratégie"
+            tech={["TypeScript"]}
+            github="https://github.com/enzo959/"
             linkedin=""
             pdf=""
           />
