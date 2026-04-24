@@ -45,15 +45,23 @@ export default function Projects() {
             title="Bot Discord"
             description="Jeu Coup, jeu de stratégie"
             tech={["TypeScript"]}
-            github="https://github.com/enzo959/"
+            github="https://github.com/bmarielou/Chifoumi_bot_discord.git"
             linkedin=""
             pdf=""
           />
           <ProjectsCard
             title="Projet Puissance 4"
             description="Jeu du 'puissance 4' classqiue. En solo ou à deux."
-            tech={["HTML", "CSS", "JS"]}
-            github="https://github.com/..."
+            tech={["HTML", "CSS"]}
+            github="https://github.com/enzo959/connect4.git"
+            linkedin=""
+            pdf=""
+          />
+          <ProjectsCard
+            title="Fromboots-to-brass"
+            description="Jeu dans le terminal de commande."
+            tech={["Go"]}
+            github="https://github.com/enzo959/from-boots-to-brass.git"
             linkedin=""
             pdf=""
           />
