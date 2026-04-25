@@ -18,8 +18,8 @@ export default function Experience() {
             <div className="relative z-10 flex flex-wrap justify-center gap-6 max-w-6xl">
                 <ExperienceCard
                     title="Bachelor 1 informatique"
-                    duration="Sep 2025 - juin 2026"
-                    description="Developpement Web, Cybersecurité"
+                    duration="2025 - 2026"
+                    description="Étudiant avec une option cybersécurité, j'ai acquis des bases solides grâce à la réalisation de projets concrets."
                 />
                 <ExperienceCard
                     title="Réserviste Opérationel"
@@ -28,13 +28,13 @@ export default function Experience() {
                 />
                 <ExperienceCard
                     title="Employé polyvalant, Mcdonald's"
-                    duration="Oct 2025 - actuellement"
-                    description="Cuisine, service à table et prise de commande"
+                    duration="2025 - actuellement"
+                    description="Je suis actuellement employé polyvalent et je réalise des tâches comme la cuisine, le service à table et la prise de commandes."
                 />
                 <ExperienceCard
                     title="Lycée Notre Dame"
-                    duration="Sep 2022 - Juin 2025"
-                    description="Spé Math, NSI, SES en ppemière, Spé Math et NSI en Terminal, Option Sport de la Seconde à la Terminal et Option Math Experte en Terminal"
+                    duration="2022 - 2025"
+                    description="Spécialités : Mathématiques, NSI (programmation Python), SES, option sport et option math experte."
                 />
             </div>
     </section>
