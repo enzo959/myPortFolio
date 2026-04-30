@@ -11,11 +11,11 @@ import tailwind from "../assets/tailwind.png";
 import virtualbox from "../assets/virtualbox.png";
 import js from "../assets/js.png"
 import linux from "../assets/linux.png"
-import python from "..assets/python.png"
-import openStego from "..assets/openStego.png"
-import autopsy from "..assets/autopsy.png"
-import veraScrypt from "..assets/veraScrypt.png"
-import typScipt from "..assets/typeScript.png"
+import python from "../assets/python.png"
+import openStego from "../assets/openStego.png"
+import autopsy from "../assets/autopsy.png"
+import veraScrypt from "../assets/veraScrypt.png"
+import typeScipt from "../assets/typeScript.png"
 
 
 
@@ -40,6 +40,6 @@ export const images = {
   openStego,
   autopsy,
   veraScrypt,
-  typScipt
+  typeScipt,
 
 };

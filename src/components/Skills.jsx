@@ -91,7 +91,7 @@ export default function Skills() {
             description="Stéganographie et dissimulation de données"
           />
           <SkillsCard
-            logo={images.typeScript}
+            logo={images.typeScipt}
             name="TypeScript"
             description="Langage similaire à JavaScript avec typage"
           />
