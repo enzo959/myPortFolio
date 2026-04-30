@@ -73,12 +73,37 @@ export default function Skills() {
           <SkillsCard
             logo={images.js}
             name="JavaScript"
-            description="Langage de programation léger"
+            description="Langage de programmation léger"
           />
           <SkillsCard
             logo={images.linux}
             name="Linux"
             description="système d'exploitation de type Unix"
+          />
+          <SkillsCard
+            logo={images.python}
+            name="Python"
+            description="Programmation polyvalente"
+          />
+          <SkillsCard
+            logo={images.openStego}
+            name="OpenStego"
+            description="Stéganographie et dissimulation de données"
+          />
+          <SkillsCard
+            logo={images.typeScript}
+            name="TypeScript"
+            description="Langage similaire à JavaScript avec typage"
+          />
+          <SkillsCard
+            logo={images.veraScrypt}
+            name="VeraScrypt"
+            description="Chiffrement de données sécurisé"
+          />
+          <SkillsCard
+            logo={images.autopsy}
+            name="Autopsy"
+            description="Analyse forensique de disque"
           />
         </div>
 
