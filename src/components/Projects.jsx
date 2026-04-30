@@ -17,24 +17,31 @@ export default function Projects() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10">
 
           <ProjectsCard
+            title="Coup"
+            description="Bot Discord permettant de jouer au jeu de société “Coup” directement sur un serveur. Développé en TypeScript avec Discord.js, il gère les parties, les interactions privées et les commandes utilisateurs. Ce projet m’a permis de découvrir les bots et les systèmes temps réel sur Discord."
+            tech={["TypeScript", "MySQL"]}
+            github="https://github.com/bmarielou/Chifoumi_bot_discord.git"
+            linkedin=""
+            pdf="/rapportCoup.pdf"
+          />
+          <ProjectsCard
             title="F.Y.T"
-            description="Site de vente de place d'événements."
+            description="Plateforme web de billetterie musicale développée en binôme avec un backend Go et un frontend React. Le projet permet la gestion d’utilisateurs, la consultation d’artistes et l’achat de billets. Il inclut une base de données PostgreSQL et une architecture complète d’application web."
             tech={["Go", "PostgreSQL", "Docker", "React", "Tailwind"]}
             github="https://github.com/enzo959/projet_gp_tracker_backend"
             linkedin=""
-            pdf=""
+            pdf="/rapportFYT.pdf"
           />
-
           <ProjectsCard
-            title="Portfolio React"
-            description="Mon portfolio thème 'Cyber'"
+            title="Portfolio"
+            description="Site personnel développé avec React et Tailwind CSS afin de présenter mes projets et compétences. Il intègre des animations, un système de contact, et le téléchargement de documents. Ce projet m’a permis de renforcer mes compétences frontend et mon utilisation de l’IA dans le développement."
             tech={["React", "Tailwind"]}
             github="https://github.com/enzo959/myPortFolio"
             linkedin=""
-            pdf=""
+            pdf="/rapprtPortfolio.pdf"
           />
           <ProjectsCard
-            title="TCP/IP"
+            title="Chat"
             description="Chat de communication"
             tech={["GO", "TCP/IP"]}
             github="https://github.com"
@@ -42,28 +49,20 @@ export default function Projects() {
             pdf=""
           />
           <ProjectsCard
-            title="Bot Discord"
-            description="Jeu Coup, jeu de stratégie"
-            tech={["TypeScript"]}
-            github="https://github.com/bmarielou/Chifoumi_bot_discord.git"
-            linkedin=""
-            pdf=""
-          />
-          <ProjectsCard
-            title="Projet Puissance 4"
-            description="Jeu du 'puissance 4' classqiue. En solo ou à deux."
-            tech={["HTML", "CSS"]}
+            title="Connect 4"
+            description="Application web du jeu Puissance 4 combinant un backend en Go et un frontend en HTML/CSS. Le serveur gère la logique du jeu et les interactions via des handlers, tandis que l’interface permet une expérience jouable sur navigateur. Projet axé sur la communication frontend/backend."
+            tech={["HTML", "CSS", "Go"]}
             github="https://github.com/enzo959/connect4.git"
             linkedin=""
-            pdf=""
+            pdf="/rapportConnect4.pdf"
           />
           <ProjectsCard
             title="Fromboots-to-brass"
-            description="Jeu dans le terminal de commande."
+            description="Projet scolaire réalisé en Go visant à découvrir le langage et les bases du développement en terminal. Il met en place une logique de jeu simple avec interactions utilisateur et gestion d’entrées/sorties. Ce projet m’a permis de structurer mon code et de comprendre les bases de Go."
             tech={["Go"]}
             github="https://github.com/enzo959/from-boots-to-brass.git"
             linkedin=""
-            pdf=""
+            pdf="/rapportFromBootsToBrass.pdf"
           />
 
         </div>

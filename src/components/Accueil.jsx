@@ -1,5 +1,4 @@
 import MatrixBackground from './MatrixBackground'
-import MonCV from '../assets/CvEnzoCourvalet.pdf'
 import { images } from "../constants/images";
 
 export default function Accueil() {
@@ -91,7 +90,7 @@ export default function Accueil() {
         <div className="w-full max-w-xl flex flex-wrap gap-4 justify-center pt-4">
 
           <a
-            href={MonCV}
+            href="CvEnzoCourvalet.pdf"
             download
             className="flex-1 min-w-45 text-center bg-purple-500 hover:bg-purple-600 text-white font-bold py-3 px-6 rounded-xl shadow-lg transition"
           >
