@@ -96,7 +96,7 @@ export default function Skills() {
             description="Langage similaire à JavaScript avec typage"
           />
           <SkillsCard
-            logo={images.veraScrypt}
+            logo={images.veraCrypt}
             name="VeraScrypt"
             description="Chiffrement de données sécurisé"
           />

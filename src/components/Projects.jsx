@@ -44,7 +44,7 @@ export default function Projects() {
             title="Chat"
             description="Chat de communication"
             tech={["GO", "TCP/IP"]}
-            github="https://github.com"
+            github="https://github.com/enzo959/projet_tcp"
             linkedin=""
             pdf=""
           />
