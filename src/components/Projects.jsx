@@ -42,7 +42,7 @@ export default function Projects() {
           />
           <ProjectsCard
             title="TCP Chat"
-            description="Projet de chat en ligne de commande développé en Go utilisant le protocole TCP/IP.Il permet une communication en temps réel entre un client et un serveur via une architecture simple."
+            description="Projet de chat en ligne de commande développé en Go utilisant le protocole TCP/IP.Il permet une communication en temps réel entre un client et un serveur via une architecture simple.Ce projet m’a permis d’explorer les bases des sockets réseau, de la concurrence avec les goroutines et du fonctionnement client / serveur."
             tech={["GO", "TCP/IP"]}
             github="https://github.com/enzo959/projet_tcp"
             linkedin=""
