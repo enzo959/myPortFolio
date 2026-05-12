@@ -41,12 +41,12 @@ export default function Projects() {
             pdf="/rapprtPortfolio.pdf"
           />
           <ProjectsCard
-            title="Chat"
-            description="Chat de communication"
+            title="TCP Chat"
+            description="Projet de chat en ligne de commande développé en Go utilisant le protocole TCP/IP.Il permet une communication en temps réel entre un client et un serveur via une architecture simple."
             tech={["GO", "TCP/IP"]}
             github="https://github.com/enzo959/projet_tcp"
             linkedin=""
-            pdf=""
+            pdf="/rapportTCP_IP.pdf"
           />
           <ProjectsCard
             title="Connect 4"
